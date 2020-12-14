@@ -1,3 +1,3 @@
 # euonymus
 euonymus psd to html
-![euonymus](/psd-file/euonymus.png)
+![GitHub Logo](/psd-file/euonymus.png)
