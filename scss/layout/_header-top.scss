@@ -13,9 +13,6 @@
     ul {
         margin-bottom: 0;
         li {
-            a {
-                color: #2a2a2a;
-            }
             height: 32px;
             width: 32px;
             display: inline-block ;
@@ -23,6 +20,15 @@
             background-color: white;
             border-radius: 50%;
             margin-right: 10px;
+            position: relative;
+            a {
+                color: #2a2a2a;
+                display: block;
+                position: absolute;
+                top: 3px;
+                left: 8px;
+            }
+            
         }
     }
 }
@@ -36,17 +42,17 @@
         li {
             display: inline-block;
             position: relative;
-            padding-left: 8px;
-            padding-right: 5px;
+            padding-left: 10px;
+            padding-right: 4px;
             a {
                 color: #ffffff;
                 display: block;
             }
             &::after {
                 content: "";
-                width: 2px;
-                height: 14px;
-                top: 4px;
+                width: 1px;
+                height: 16px;
+                top: 7px;
                 left: 0;
                 background-color: #ffffff;
                 position: absolute;

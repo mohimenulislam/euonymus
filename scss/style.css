@@ -43,10 +43,15 @@ a {
   background-color: white;
   border-radius: 50%;
   margin-right: 10px;
+  position: relative;
 }
 
 .icon ul li a {
   color: #2a2a2a;
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 8px;
 }
 
 .menu_bar {
@@ -59,8 +64,8 @@ a {
 .menu_bar ul li {
   display: inline-block;
   position: relative;
-  padding-left: 8px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 4px;
 }
 
 .menu_bar ul li a {
@@ -70,9 +75,9 @@ a {
 
 .menu_bar ul li::after {
   content: "";
-  width: 2px;
-  height: 14px;
-  top: 4px;
+  width: 1px;
+  height: 16px;
+  top: 7px;
   left: 0;
   background-color: #ffffff;
   position: absolute;
@@ -144,6 +149,7 @@ a {
   color: #ffffff;
   font-weight: bolder;
   border: none;
+  cursor: pointer;
 }
 
 .header_Bottom nav {
