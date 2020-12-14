@@ -1,0 +1,44 @@
+.header_Bottom {
+    nav {
+        background-color: #2a2a2a;
+        .inner_header_bottom {
+            height: 50px;
+            line-height: 1;
+            ul {
+                li {
+                    display: inline-block;
+                    position: relative;
+                    margin-top: 15px;
+                    a {
+                        text-decoration: none;
+                        color: #999999;
+                        font-weight: bold;
+                        margin-right: 15px;
+                        margin-left: 18px;
+                        text-transform: 0.3s;
+                        &:hover {
+                            color: #ffffff;
+                        }
+                        &:first-child {
+                            // margin-left: 0px;
+                        }
+                       
+                    }
+                    &::after {
+                        content: "";
+                        width: 2px;
+                        height: 30px;
+                        top: -5px;
+                        left: 0;
+                        background-color: #999999;
+                        position: absolute;
+                    }
+                    &:first-child::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
