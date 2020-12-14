@@ -1,0 +1,109 @@
+.footer_area {
+    background-color: #1c1c1c;
+    .footer_top {
+        text-align: center;
+    }
+    hr {
+      
+        border: 1px solid #3d3d3d;
+    }
+    img {
+
+    }
+    p {
+        color: #666666;
+    }
+}
+
+.footer_display_flex {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    .commom_footer_child {
+        width: 225px;
+        text-align: left;
+        h3 {
+            font-size: 16px;
+            color: #ffffff;
+        }
+    }
+}
+.company_details {
+    address {
+        color: #666666;
+    }
+}
+.latest_blog_post {
+    .blog_post_display_flex {
+        display: flex;
+        justify-content: space-between;
+        .small_blog_img {
+            width: 48px;
+        }
+        .blog_text {
+            width: 170px;
+            p {
+                margin-bottom: 0;
+                font-size: 14px;
+                color: #666666;
+                line-height: 1;
+            }
+            span {
+                font-size: 12px;
+                color: #666666;
+            }
+        }
+    }
+}
+.quick_links {
+    ul {
+        li {
+            a {
+                color: #2aa2d4;
+            }
+        }
+    }
+}
+.contact_us {
+    input[type = text], input[type = email] {
+        width: 100%;
+        height: 32px;
+        line-height: 1;
+        background-color: #232323;
+        color: #666666;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    textarea {
+        width: 100%;
+        background-color: #232323;
+        color: #666666;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .footer_btn {
+        width: 75px;
+        height: 35px;
+        background-color: #2aa2d4;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+//###############################################################
+.copy_right {
+    overflow: hidden;
+    .fl_left {
+        float: left;
+    }
+    .fl_right {
+        float: right;
+    }
+}

@@ -1,0 +1,143 @@
+.main_body {
+    .inner_body{
+        .hero_img {
+            position: relative;
+            img {
+                width: 1140px;
+            }
+            .img_text {
+                background-color: #151515;
+                padding: 20px;
+                width: 500px;
+                height: 130px;
+                right: 0;
+                bottom: 0;
+                position: absolute;
+                h3 {
+                    color: #ebebeb;
+                }
+                p {
+                    color: #ffffff;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+}
+//####################################################################
+.body_2nd_part {
+    margin-top: 30px;
+    p {
+        color: #2aa2d4;
+    }
+    
+}
+.display_flex {
+    display: flex;
+    justify-content: space-between;
+}
+.body_2nd_part_child {
+    width: 225px;
+    .small_img {
+        float: left;
+    }
+    .small_text {
+        width: 165px;
+        height: auto;
+        float: right;
+        h3 {
+            line-height: 1;
+            font-size: 16px;
+            color: #2aa2d4;
+        }
+        p {
+            font-size: 14px;
+            color: #666666;
+        }
+    }
+}
+
+//#########################################################################
+.body_3rd_part {
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.welcome_message {
+    float: left;
+    width: 530px;
+}
+.wm_inner {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    .what_we_do {
+        width: 225px;
+        h3 {
+            font-size: 16px;
+            margin-top: 18px;
+            margin-bottom: 13px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+}
+
+.latest_project {
+    width: 530px;
+    float: right;
+}
+.lp_inner {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    .indonectetus_facilis {
+        width: 225px;
+        a {
+            display: block;
+            margin-top: 18px;
+            margin-bottom: 13px;
+        }
+    }
+}
+//###################################################################
+
+.body_4th_part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    .meet_out_team {
+        width: 225px;
+        h3 {
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+    }
+    .person_name {
+        width: 225px;
+        h3 {
+            margin-top: 18px;
+            margin-bottom: 0;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        span {
+            font-size: 12px;
+            color: #979797;
+            text-transform: capitalize;
+        }
+        a {
+            font-size: 14px;
+            color: #2aa2d4;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.body_bottom_border {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 4px solid;
+}
